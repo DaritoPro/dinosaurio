@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dinosaur</title>
+</head>
+<body>
+    <div class="game-container" id="gameContainer">
+        <div class="instructions">Presionar Espacio o Click para saltar</div>
+        <div class="score" id="score">HI 0000 0000</div>
+        <div class="ground"></div>
+        <divc class="dino" id="dino">
+            <div class="dino-body"></div>
+            <div class="dino-head"></div>
+            <div class="dino-eye"></div>
+            <div class="dino-mouth"></div>
+            <div class="dino-arm"></div>
+            <div class="dino-leg1"></div>
+            <div class="dino-leg2"></div>
+            <div class="dino-tail"></div>
+        </div>
+        <div class="cactus"></div>
+        <div class="cactus small"></div>
+
+        <div class="game-over" id="game-over">
+            <h2>JUEGO TERMINADO!</h2>
+            <p>Tu puntuaciòn: <span id="finalScore">0</span></p>
+            <button onclick="restartGame()">Reiniciar juego</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
